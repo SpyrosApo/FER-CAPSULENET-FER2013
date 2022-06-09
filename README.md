@@ -12,7 +12,7 @@ https://www.kaggle.com/competitions/challenges-in-representation-learning-facial
 
 **Step 4. Download the pre-trained models from this link**
 ```
-svm_with_HE.ipynb
+https://1drv.ms/u/s!AmeTT2EpSz40hFVFOvh-r8aSXPlL?e=pFEasy
 ```
 **Step 5. Put the pre-trained models in the following folder**
 ```
