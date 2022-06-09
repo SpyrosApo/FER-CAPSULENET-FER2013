@@ -18,3 +18,19 @@ svm_with_HE.ipynb
 ```
 pre_trained_models
 ```
+**To train the model from scratch, run the following**
+```
+For baseline model: python capsulenet_baseline.py
+For batch_norm model: python capsulenet_baseline+batch_norm.py
+For 2_conv_layers model: python capsulenet_2_conv_layers.py
+For 3_conv_layers model: python capsulenet_3_conv_layers.py
+```
+**After training the new model will be saved at the result folder **
+
+**For evaluation on the pre-trained models, run the following**
+```
+For baseline model: python capsulenet_baseline.py
+For batch_norm model: python capsulenet_baseline+batch_norm.py
+For 2_conv_layers model: python capsulenet_2_conv_layers.py
+For 3_conv_layers model: python capsulenet_3_conv_layers.py
+```
