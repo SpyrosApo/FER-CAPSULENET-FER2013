@@ -26,12 +26,18 @@ For 2_conv_layers model: python capsulenet_2_conv_layers.py
 For 3_conv_layers model: python capsulenet_3_conv_layers.py
 ```
 
-**After training the new model will be saved at the result folder **
+**After training the new model will be saved at the result folder**
 
 **For evaluation on the pre-trained models, run the following**
 ```
-For baseline model: python capsulenet_baseline.py
-For batch_norm model: python capsulenet_baseline+batch_norm.py
-For 2_conv_layers model: python capsulenet_2_conv_layers.py
-For 3_conv_layers model: python capsulenet_3_conv_layers.py
+For baseline model: python capsulenet_baseline.py -t -w pre_trained_models/trained_baseline_model.h5
+For batch_norm model: python capsulenet_baseline+batch_norm.py -t -w pre_trained_models/trained_baseline+batch_norm_model.h5
+For 2_conv_layers model: python capsulenet_2_conv_layers.py -t -w pre_trained_models/trained_2conv_model.h
+For 3_conv_layers model: python capsulenet_3_conv_layers.py -t -w pre_trained_models/trained_3conv_model.h5
+```
+
+**For evaluation on your model, run the following**
+```
+ python "your_model".py -t -w result/"your_model h5 file"
+
 ```
